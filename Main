@@ -1,4 +1,4 @@
---[[
+--[[  
     OBSIDIAN UI v4.0 ULTIMATE
     
     RETURNS IN CALLBACKS:
@@ -917,3 +917,4 @@ function Lib:CreateWindow(cfg)
     table.insert(Lib.Windows,W)
     return W
 end
+return Lib
